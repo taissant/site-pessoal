@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(112, 34, 60);
+}
+
+.container {
+  width: 800px;
+  max-width: 800px;
+  max-height: 90vw;
+  height: auto;
+  margin: 30px 10px 20px 10px;
+}
+
+.img-profile-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.img-profile {
+  width: 250px;
+  height: 290px;
+  border-radius: 50%;
+  border: 5px solid #ff9d1b;
+}
+
+.img-profile-box h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+}
+
+.img-profile-box h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+}
+
+.link-box {
+  width: 100%;
+  max-width: 790px;
+  height: 70px;
+  border-radius: 10px;
+  background: beige;
+  box-shadow: 5px 5px 10px black, -5px -5px 10px #ff9d1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.link-box a {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-left: 30px;
+  color: #353434;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.link-box:hover {
+  background-color: #b3590f;
+}
+
+.link-box i {
+  font-size: 25px;
+  margin-left: 25px;
+}
+
+#coder {
+  width: 100%;
+  max-width: 790px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #353434;
+  box-shadow: 5px 5px 10px #b3590f, -5px -5px 10px #ff9d1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#coder:hover {
+  background-color: #3b3b3b !important;
+}
+
+#coder a {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  margin-left: 30px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#coder i {
+  font-size: 25px;
+  margin-left: 25px;
+  color: #fff;
+}
+
+#coder img {
+  margin-left: 17px;
+}
+
+.dnc {
+  margin-left: 10px !important;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  color: #353434;
+  text-align: center;
+  margin-top: 50px;
+}
